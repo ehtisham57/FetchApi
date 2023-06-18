@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.urlStyle{
+    padding : 10px; 
+    text-align: "center";
+    background :"red";
+
+}
+.cardStyle {
+    display: "flex" !important;
+    text-align: "center" !important;
+    justify-content: "space-around !important";
+}
