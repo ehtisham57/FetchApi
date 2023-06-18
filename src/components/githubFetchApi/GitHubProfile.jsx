@@ -5,6 +5,7 @@ const GitHubProfile = () => {
     const [user, setUser] = useState([])
 
     const getUser = async () => {
+        ///////url data
         const gitHubApi = await fetch('https://jsonplaceholder.typicode.com/photos  ')
             ;
         console.log(gitHubApi)
